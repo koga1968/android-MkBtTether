@@ -54,11 +54,14 @@
             android:layout_weight="1" />
     </LinearLayout>
 
-    <TextView
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/txt_status"
-        android:textIsSelectable="false"
-        android:textSize="@dimen/abc_text_size_large_material" />
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:enabled="true"
+        android:focusable="false"
+        android:inputType="none"
+        android:editable="false"/>
 
 </LinearLayout>
