@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BtTetherActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin">
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sw_bt_enable"
+        android:id="@+id/sw_bt_enabled"
+        android:textSize="@dimen/abc_text_size_display_1_material" />
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sw_bt_tether_enable"
+        android:id="@+id/sw_bt_tether_enable"
+        android:checked="false"
+        android:textSize="@dimen/abc_text_size_display_1_material" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_app_finish"
+            android:id="@+id/btn_finish"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:layout_weight="1" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_status_clear"
+            android:id="@+id/btn_clear"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:layout_weight="1" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_stats"
+            android:id="@+id/btn_update"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/txt_status"
+        android:textIsSelectable="false"
+        android:textSize="@dimen/abc_text_size_large_material" />
+
+</LinearLayout>

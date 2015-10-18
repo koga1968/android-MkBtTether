@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MkBtTether</string>
+
+    <string name="btn_app_finish">end</string>
+    <string name="sw_bt_enable">Bluetooth</string>
+    <string name="sw_bt_tether_enable">Tether</string>
+    <string name="btn_status_clear">Log Clear</string>
+    <string name="btn_stats">stats</string>
+</resources>
